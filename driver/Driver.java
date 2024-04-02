@@ -35,11 +35,11 @@ public class Driver {
         }
 
         if (shapeType == ShapeType.CIRCLE) {
-            System.out.println("Keliling Lingkaran: " + calculatePerimeter(circle));
+            System.out.println("Keliling Lingkaran: " + circle.calculateArea());
         } else if (shapeType == ShapeType.RECTANGLE) {
-            System.out.println("Keliling Persegi Panjang: " + calculatePerimeter(rectangle));
+            System.out.println("Keliling Persegi Panjang: " + rectangle.calculateArea());
         } else if (shapeType == ShapeType.TRIANGLE) {
-            System.out.println("Keliling Segitiga: " + calculatePerimeter(triangle));
+            System.out.println("Keliling Segitiga: " + triangle.calculateArea());
         } else {
             System.out.println("Pilihan tidak valid!");
         }
